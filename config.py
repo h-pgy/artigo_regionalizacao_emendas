@@ -23,3 +23,4 @@ def solve_folder(folder_name:str, parent=None)->str:
 
 DATA_FOLDER: str = solve_folder('data')
 GRAFICOS_FOLDER=solve_folder('graficos', 'static')
+DADOS_FINAL: str = os.path.join(solve_folder('base_final'), 'emendas_orcamentarias_regionalizadas.csv')
